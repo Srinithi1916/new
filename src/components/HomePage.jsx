@@ -45,8 +45,8 @@ const HomePage = () => {
               <CurrencyRupeeIcon fontSize = 'large' style = {{margin: '10px'}}/>
 
               <div>
-                <Typography variant='h6'>Appliance Service</Typography>
-                <Typography variant = 'subtitle1'>Reasonable Price</Typography>
+                <Typography variant='h6'>Affordable price</Typography>
+                <Typography variant = 'subtitle1'>checkup at just 90Rs</Typography>
 
               </div>
             </Stack>
@@ -71,8 +71,8 @@ const HomePage = () => {
               <AccessTimeIcon fontSize = 'large' style = {{margin: '10px'}}/>
 
               <div>
-                <Typography variant='h6'>Appliance Service</Typography>
-                <Typography variant = 'subtitle1'>Reasonable Price</Typography>
+                <Typography variant='h6'>Doorstep Service</Typography>
+                <Typography variant = 'subtitle1'>under 90 mins</Typography>
 
               </div>
             </Stack>
@@ -84,8 +84,8 @@ const HomePage = () => {
               <ThumbUpIcon fontSize = 'large' style = {{margin: '10px'}}/>
 
               <div>
-                <Typography variant='h6'>Appliance Service</Typography>
-                <Typography variant = 'subtitle1'>Reasonable Price</Typography>
+                <Typography variant='h6'>Warrenty service</Typography>
+                <Typography variant = 'subtitle1'>for 10 days</Typography>
 
               </div>
             </Stack>

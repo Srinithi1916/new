@@ -8,20 +8,12 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import logoimg from './img/logo.jpg';
-import './nav.css'
-
 
 const Navbar = () => {
 
   const setstyle = {padding : '20px', marginRight : '40px', color: 'black', fontWeight: 'bold', fontFamily: 'Poppins'};
 
-const setcolor = ({isactive}) => {
-  return{
-    backgroundColor: isactive ? 'black' : 'white',
-    color : isactive ? 'white' : 'black',
-  };
-    
-}
+const setcolor = {textDecoration: 'none',backgroundColor: 'lightgreen',padding: '5px', marginLeft: '20px', fontFamily:'Poppins', fontSize: '2rem', borderRadius: '10px'}
 
   return (
 
@@ -30,16 +22,16 @@ const setcolor = ({isactive}) => {
         <AppBar position = 'fixed' sx =  {{backgroundColor: 'white' , height: 'auto'}} >
           <Toolbar>
           <Link to = '/'>
-            <Box component='img'
+            <Box component = 'img'
             sx = {{height: '50px', marginRight: 'auto' , marginLeft: '50px'}}
             src={logoimg} />
           </Link>         
           <Box sx = {{flexGrow: 1, marginLeft:'60px'}}>
 
-            <NavLink to = '/service'><Button style={setstyle}>Service</Button></NavLink>
-            <NavLink to = '/pricing'><Button style={setstyle}>Pricing</Button></NavLink>
-            <NavLink to = '/about'><Button style={setstyle}>About</Button></NavLink>
-            <NavLink to = '/contactus '><Button style={setstyle}>Contact Us</Button></NavLink>
+            <NavLink to = '/service' style = {setcolor}>service</NavLink>
+            <NavLink to = '/pricing' style = {setcolor}>pricing</NavLink>
+            <NavLink to = '/about' style = {setcolor}>about</NavLink>
+            <NavLink to = '/contactus ' style = {setcolor}>contact us</NavLink>
 
           </Box>
 
