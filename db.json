@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "name": "sundar",
+      "email": "sundar@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "name": "mani",
+      "email": "mani@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "sachin",
+      "email": "sachin@gmail.com",
+      "password": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "thanush",
+      "password": "fghjkldfghjk",
+      "email": "thanush@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "srinivasan",
+      "password": "1234567890123",
+      "email": "srinivasan@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "rheni",
+      "password": "1234",
+      "email": "rheni@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "rheni",
+      "password": "12345",
+      "email": "rheni@gmail.com",
+      "id": 11
+    },
+    
+    {
+      "name": "sachuu",
+      "password": "1234",
+      "email": "sachuu@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "sundar@gmail.com",
+      "password": "1234",
+      "email": "adf@gmail.com",
+      "id": 14
+    },
+    
+    {
+      "name": "s",
+      "password": "1234",
+      "email": "abkhsafh@gmail.com",
+      "id": 16
+    },
+    {
+      "name": "name",
+      "password": "1234",
+      "email": "name@gmail.com",
+      "id": 17
+    },
+    {
+      "name": "Rufus",
+      "password": "12345678",
+      "email": "rufus1733@gmail.com",
+      "id": 20
+    },
+    {
+      "name": "sabari",
+      "password": "1234",
+      "email": "sabari@gmail.com",
+      "id": 21
+    }
+  ]
+}
